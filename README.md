@@ -7,7 +7,7 @@ Based on the following works:
 
 This theme was made by warorbs aka [lpb] (https://github.com/lpb/es-theme-mameulationstation)
 
-##Overview
+## Overview
 
 'MAMEulationStation' is a perpetual work in progress and primarily a personal project! :)
 
@@ -19,14 +19,14 @@ The projected use of this theme is that the user have a central 'all games'/'Mam
 This theme is primarily designed to be used in grid layout and only with versions of Emulation Station that support theme <formatVersion> 7. (It has been developed on the Batocera port, but should work with others such as EmuELEC and RetroBat).
 Other views (basic, detailed) are available but their useability is not (yet, at least) guaranteed.
 
-##Supported Collections:
+## Supported Collections:
 - TBC
 
-##Copyrights
+## Copyrights
 - All logos, trademarks and photos are copyright of their respective owners.
 - Each brand of hardware and software here represented as a tribute.
 
-##License
+## License
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
