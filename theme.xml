@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Theme: MamemulationStation
+author: warorbs/lpb
+License: creative commons CC-BY-NC-SA
+originally based on:	"es-theme-minimal" by lilbud
+originally based on:	"ckau-book" by Ckau
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <include>./_assets/views/menu.xml</include>
+  <include>./_assets/views/system.xml</include>
+  <include>./_assets/views/basic.xml</include>  
+  <include>./_assets/views/detailed.xml</include> 
+  <include>./_assets/views/grid.xml</include>
+
+  <view name="screen">
+
+    <text name="clock">
+      <pos>0.92 0.95</pos>
+      <size>0.07 0.025</size>
+      <fontSize>0.025</fontSize>
+      <color>f0f60baa</color>
+      <!-- <horizontalAlignment>center</horizontalAlignment> -->
+      <verticalAlignment>center</verticalAlignment>
+      <fontPath>./assets/SST.ttf</fontPath>
+      <fontSize>0.04</fontSize>
+    </text>
+
+    <controllerActivity name="controllerActivity">
+      <pos>0.900 0.025</pos>
+      <size>0.085 0.025</size>
+      <horizontalAlignment>right</horizontalAlignment>
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>./_assets/icons/gamepad.svg</imagePath>
+      <color>FFFFFF80</color>
+      <activityColor>f0f60baa</activityColor>
+      <hotkeyColor>FFA0A0C0</hotkeyColor>
+    </controllerActivity>
+
+  </view>
+
+  <view name="basic, detailed">
+    <textlist name="gamelist">
+      <selectorColor>0099f0</selectorColor>
+      <selectorColorEnd>002f89</selectorColorEnd>
+      <selectedColor>f0f60b</selectedColor>
+      <primaryColor>ffffff</primaryColor>
+      <secondaryColor>585863</secondaryColor>
+      <fontPath>./_assets/fonts/SST.ttf</fontPath>
+      <fontSize>0.03</fontSize>
+      <pos>0.051 0.170</pos>
+      <size>0.50 0.70</size>
+      <alignment>left</alignment>
+      <horizontalMargin>0.01</horizontalMargin>
+      <origin>0 0</origin>
+      <lineSpacing>2.1</lineSpacing>
+      <selectorImagePath>./_assets/images/box.png</selectorImagePath>
+      <selectorOffsetY>-0.01</selectorOffsetY>
+      <selectorHeight>0.0675</selectorHeight>
+    </textlist>
+  </view>
+
+</theme>

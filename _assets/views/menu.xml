@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="menu">
+
+    <menuText name="menutitle">
+      <fontPath>./_assets/fonts/ubuntu_medium.ttf</fontPath>
+      <fontSize>0.044</fontSize>
+      <color>ffffff</color>
+    </menuText>
+
+    <menuText name="menufooter">
+      <fontPath>./_assets/fonts/SST.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+    </menuText>
+
+    <menuText name="menutext">
+      <fontPath>./_assets/fonts/SST.ttf</fontPath>
+      <fontSize>0.038</fontSize>
+      <color>f1f1f3</color>
+      <selectorColor>0099f0</selectorColor>
+      <selectorColorEnd>002f89</selectorColorEnd>
+      <selectedColor>f0f60b</selectedColor>
+      <separatorColor>0f0f2d</separatorColor>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./_assets/fonts/SST.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+      <color>ffffff</color>
+    </menuTextSmall>
+
+    <menuBackground name="menubg">
+      <color>114373</color>
+      <cornerSize>16 16</cornerSize>
+    </menuBackground>
+    
+  </view>
+
+</theme>
