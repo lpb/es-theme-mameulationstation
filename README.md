@@ -1,9 +1,7 @@
 # MamemulationStation (es-theme-mameulationstation)
-
 An Emulation Station themed around the MAME emulator.
 
 Based on the following works:
-
 - "es-theme-minimal" by lilbud (https://github.com/lilbud/es-theme-minimal)
 - "ckau-book" by Ckau (https://github.com/CkauNui/ckau-book)
 
@@ -22,7 +20,6 @@ This theme is primarily designed to be used in grid layout and only with version
 Other views (basic, detailed) are available but their useability is not (yet, at least) guaranteed.
 
 ## Supported Collections:
-
 - Astrocade
 - Atari
 - Atomiswave
@@ -64,9 +61,8 @@ Other views (basic, detailed) are available but their useability is not (yet, at
 - Video System Co.
 - Williams
 - Zaccaria
-
+  
 ## Collections still to add
-
 - Capcom subsystems (zn?)
 - Jaleco
 - Kaneko
@@ -74,20 +70,16 @@ Other views (basic, detailed) are available but their useability is not (yet, at
 - Taito subsystems
 
 ## Theme TODO
-
 - clean up detailed view
 - do something with basic view
 - sounds
-- check for naming system convention-
 - other stuff that i think of
 
 ## Copyrights
-
 - All logos, trademarks and photos are copyright of their respective owners.
 - Each brand of hardware and software here represented as a tribute.
 
 ## License
-
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
