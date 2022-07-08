@@ -20,7 +20,56 @@ This theme is primarily designed to be used in grid layout and only with version
 Other views (basic, detailed) are available but their useability is not (yet, at least) guaranteed.
 
 ## Supported Collections:
-- TBC
+- Astrocade
+- Atari
+- Atomiswave
+- Bally
+- Bally Sente
+- Capcom
+- Capcom CPS1
+- Capcom CPS2
+- Capcom CPS3
+- Century
+- Data East
+- DECO Cassette System
+- Exidy
+- Irem
+- Konami
+- Midway
+- Namco
+- Naomi
+- NeoGeo
+- Nintendo
+- Psikyo
+- Sega
+- Seibu
+- Seta
+- SNK
+- SNK NeoGeo
+- Stern
+- Taito
+- Technos
+- Tecmo
+- Tehkan
+- Toaplan
+- Universal
+- Video System Co.
+- Williams
+- Zaccaria
+  
+## Collections still to add
+- Capcom subsystems (zn?)
+- Jaleco
+- Kaneko
+- Namco subsystems
+- Sega subsystems
+- Taito subsystems
+
+## Theme TODO
+- clean up detailed view
+- do something with basic view
+- sounds
+- other stuff that i think of
 
 ## Copyrights
 - All logos, trademarks and photos are copyright of their respective owners.
