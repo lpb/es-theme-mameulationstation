@@ -73,6 +73,7 @@ Other views (basic, detailed) are available but their useability is not (yet, at
 - clean up detailed view
 - do something with basic view
 - sounds
+- check for naming convention for systems
 - other stuff that i think of
 
 ## Copyrights
