@@ -42,6 +42,11 @@ Other views (basic, detailed) are available but their useability is not (yet, at
 - Nintendo
 - Psikyo
 - Sega
+- Sega Model1
+- Sega Model2
+- Sega Model3
+- Sega SuperScaler
+- Sega STV
 - Seibu
 - Seta
 - SNK
@@ -62,7 +67,6 @@ Other views (basic, detailed) are available but their useability is not (yet, at
 - Jaleco
 - Kaneko
 - Namco subsystems
-- Sega subsystems
 - Taito subsystems
 
 ## Theme TODO
