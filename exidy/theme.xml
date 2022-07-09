@@ -9,7 +9,7 @@
         </image>
     </view>
 
-    <view name="grid">
+    <view name=",grid">
         <image name="logo">
             <pos>0.5 0.01</pos>
             <path>./c_${system.theme}.png</path>

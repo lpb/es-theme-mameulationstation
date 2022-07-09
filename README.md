@@ -17,7 +17,6 @@ The desired impact of the theme is to dress Emulation Station as a front-end for
 The projected use of this theme is that the user have a central 'all games'/'Mame'/ 'arcade' (as desired) gamelist and then a bunch of collections that break down the games into smaller lists (to aid with navigation and performance), mainly based around publishers and/or system boards.
 
 This theme is primarily designed to be used in grid layout and only with versions of Emulation Station that support theme <formatVersion> 7. (It has been developed on the Batocera port, but should work with others such as EmuELEC and RetroBat).
-Other views (basic, detailed) are available but their useability is not (yet, at least) guaranteed.
 
 ## Supported Collections:
 - Astrocade
@@ -29,6 +28,7 @@ Other views (basic, detailed) are available but their useability is not (yet, at
 - Capcom CPS1
 - Capcom CPS2
 - Capcom CPS3
+- Capcom (ZN type)
 - Century
 - Data East
 - DECO Cassette System
@@ -37,6 +37,10 @@ Other views (basic, detailed) are available but their useability is not (yet, at
 - Konami
 - Midway
 - Namco
+- Namco (na/nb type)
+- Namco (s1/s2 type)
+- Namco (s11/s12 type)
+- Namco (s21/s22 type)
 - Naomi
 - NeoGeo
 - Nintendo
@@ -63,15 +67,11 @@ Other views (basic, detailed) are available but their useability is not (yet, at
 - Zaccaria
   
 ## Collections still to add
-- Capcom subsystems (zn?)
 - Jaleco
 - Kaneko
-- Namco subsystems
 - Taito subsystems
 
 ## Theme TODO
-- clean up detailed view
-- do something with basic view
 - sounds
 - check for naming convention for systems
 - other stuff that i think of

@@ -21,8 +21,8 @@
 	</helpsystem>
 
 	<image name="gamelistBackground" extra="true">
-		<path>./../../_assets/images/space.png</path>
-		<color>141414aa</color>
+		<path>./../../_assets/images/box.png</path>
+		<color>606060FF</color>
 		<origin>0 0</origin>
 		<pos>0.59 0.14</pos>
 		<size>0.36 0.73</size>
@@ -44,8 +44,6 @@
 		<color>10667f</color>
 		<path>./../_assets/backgrounds/bg1.png</path>
 	</image>
-
-
 
     <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate">
 		<visible>false</visible>	

@@ -3,45 +3,28 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <view name="basic">
+  <view name="">
 
-    <text name="description" extra="true">
-      <pos>0.605 0.685</pos>
-      <size>0.347 0.183</size>
-      <alignment>center</alignment>
-      <color>ffffffff</color>
-      <fontSize>0.025</fontSize>
-      <text>No Information Available</text>
-      <fontPath>./_assets/fonts/ubuntu_medium.ttf</fontPath>
-    </text>
-
-    <image name="none" extra="true">
-      <origin>0.5 0.5</origin>
-      <pos>0.776 0.388</pos>
-      <maxSize>0.347 0.46</maxSize>
-      <path>./_assets/images/no_boxart.png</path>
-      <color>ffffffff</color>
-    </image>
-
-    <image name="logo">
+     <image name="logo">
 			<pos>0.5 0.01</pos>
 			<path>./${system.theme}/c_${system.theme}.svg</path>
 			<maxSize>0.3 0.12</maxSize>
       <color>ffffffff</color>
 		</image>      
 
-    <video name="md_video">
-			<pos>0.78 0.43</pos>
-			<maxSize>0.30 0.38</maxSize>
-			<origin>0.5 0.5</origin>
-			<delay>0.1</delay>
-			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<showSnapshotDelay>false</showSnapshotDelay>
-			<snapshotSource>image</snapshotSource>
-			<effect>none</effect>
-			<zIndex>110</zIndex>
-			<color>FF0000B0</color>
-		</video>
+		<textlist name="gamelist">
+      <selectorColor>ffffff</selectorColor>
+      <selectedColor>000000</selectedColor>
+      <primaryColor>ffffff</primaryColor>
+      <secondaryColor>ffffff</secondaryColor>
+      <fontPath>./../assets/SST.ttf</fontPath>
+      <fontSize>0.035</fontSize>
+      <pos>0.160 0.124</pos>
+      <size>0.684 0.725</size>
+      <alignment>center</alignment>
+      <horizontalMargin>0.01</horizontalMargin>
+      <origin>0 0</origin>
+		</textlist>
 
   </view>
 
