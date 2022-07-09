@@ -14,8 +14,8 @@
 		</image>
 
 		<helpsystem name="help">
-			<textColor>FFFFFF90</textColor>
-			<iconColor>FFFFFF90</iconColor>
+			<textColor>${textColor}90</textColor>
+			<iconColor>${textColor}90</iconColor>
 			<fontSize>0.025</fontSize>
 			<fontPath>./../_assets/fonts/ubuntu_condensed.ttf</fontPath>
 		</helpsystem>
@@ -30,22 +30,22 @@
 			<centerSelection>false</centerSelection>
 			<animateSelection>false</animateSelection>
 			<gameImage>./../_assets/icons/no_boxart.svg</gameImage>
-			<scrollbarColor>333333ff</scrollbarColor>
+			<scrollbarColor>${scrollColor}ff</scrollbarColor>
 			<scrollbarCorner>0.49</scrollbarCorner>
 			<scrollbarSize>0.005</scrollbarSize>
 		</imagegrid>
 
 		<gridtile name="default">
-			<backgroundColor>FFFFFF00</backgroundColor>
+			<backgroundColor>${textColor}00</backgroundColor>
 			<backgroundCornerSize>5 5</backgroundCornerSize>
 			<selectionMode>image</selectionMode>
 			<padding>3 3</padding>
-			<imageColor>FFFFFFB0</imageColor>
+			<imageColor>${textColor}B0</imageColor>
 		</gridtile>
 
 		<gridtile name="selected">
-			<backgroundColor>FFFFFF00</backgroundColor>
-			<imageColor>ffffffff</imageColor>
+			<backgroundColor>${textColor}00</backgroundColor>
+			<imageColor>${textColor}ff</imageColor>
 		</gridtile>
 
 		<image name="gridtile.favorite">
@@ -54,7 +54,7 @@
 			<maxSize>0.15 0.15</maxSize>
 			<origin>0.5 0.5</origin>
 			<horizontalAlignment>right</horizontalAlignment>
-			<color>FF0000B0</color>
+			<color>${faveColor}</color>
 		</image>
 
 		<ninepatch name="gridtile.background:selected">
@@ -62,7 +62,7 @@
 			<cornerSize>36 36</cornerSize>
 			<padding>-18 -18</padding>
 			<color>${baseColor}</color>
-			<animateColor>ffffff77</animateColor>
+			<animateColor>${textColor}77</animateColor>
 			<animateColorTime>1000</animateColorTime>
 		</ninepatch>
 
@@ -77,13 +77,13 @@
 
 		<image name="md_image">
 			<visible>false</visible>
-			<color>FF0000B0</color>
+			<color>${textColor}B0</color>
 		</image>
 
 		<text name="md_name">
 			<pos>0.62 0.14</pos>
 			<size>0.30 0.05</size>
-			<color>F0F0F0F0</color>
+			<color>${textColor}F0</color>
 			<fontSize>0.032</fontSize>
 			<fontPath>./../_assets/fonts/SST.ttf</fontPath>
 			<alignment>center</alignment>
@@ -101,16 +101,16 @@
 			<snapshotSource>image</snapshotSource>
 			<effect>none</effect>
 			<zIndex>110</zIndex>
-			<color>FF0000B0</color>
+			<color>${textColor}FF</color>
 		</video>
 
 		<image name="md_marquee">
 			<visible>false</visible>
-			<color>FF0000B0</color>
+			<color>${textColor}B0</color>
 		</image>
 
 		<text name="md_publisher">
-			<color>828282ff</color>
+			<color>${textColor}ff</color>
 			<pos>0.62 0.168</pos>
 			<size>0.30 0.05</size>
 			<alignment>center</alignment>
@@ -122,7 +122,7 @@
 		<text name="md_description">
 			<pos>0.61 0.65</pos>
 			<size>0.34 0.2</size>
-			<color>ffffffff</color>
+			<color>${textColor}ff</color>
 			<fontSize>0.025</fontSize>
 			<fontPath>./../_assets/fonts/ubuntu_condensed.ttf</fontPath>
 		</text>
@@ -136,7 +136,7 @@
 			<format>%Y</format>
 			<fontPath>./../_assets/fonts/ubuntu_condensed.ttf</fontPath>
 			<fontSize>0.025</fontSize>
-			<color>ffffffbb</color>
+			<color>${textColor}bb</color>
 			<zIndex>180</zIndex>
 		</datetime>
 
@@ -144,17 +144,17 @@
 			<origin>0 0</origin>
 			<pos>0.824 0.889</pos>
 			<maxSize>0.02 0.05</maxSize>
-			<color>ffffffbb</color>
+			<color>${textColor}bb</color>
 		</image>
 
 		<rating name="md_rating">
 			<pos>0.935 0.884</pos>
 			<size>0.05 0.03</size>
 			<rotation>0</rotation>
-			<color>ffcc00bb</color>
+			<color>${ratingColor}</color>
 			<origin>0.5 0</origin>
 			<horizontalAlignment>right</horizontalAlignment>
-			<unfilledColor>ffffffbb</unfilledColor>
+			<unfilledColor>${textColor}bb</unfilledColor>
 			<unfilledPath>./../_assets/icons/star_filled.svg</unfilledPath>
 		</rating>
 
@@ -166,7 +166,7 @@
 			<text>1</text>
 			<alignment>center</alignment>
 			<fontSize>0.034</fontSize>
-			<color>ffffffbb</color>
+			<color>${textColor}bb</color>
 		</text>
 
 		<image name="md_manual">
@@ -174,7 +174,7 @@
 			<path>./../_assets/icons/manual.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>ffffffff</color>
+			<color>${textColor}ff</color>
 			<zIndex>150</zIndex>
 		</image>
 
@@ -183,7 +183,7 @@
 			<path>./../_assets/icons/manual.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>f1f1f31f</color>
+			<color>${textColor}1f</color>
 			<zIndex>150</zIndex>		
 		</image>
 
@@ -192,7 +192,7 @@
 			<path>./../_assets/icons/savestate.svg</path>
 			<pos>0.765 0.90</pos>
 			<maxSize>0.02 0.03</maxSize>
-			<color>ffffffbb</color>
+			<color>${textColor}bb</color>
 			<zIndex>150</zIndex>
 		</image>
 
@@ -201,7 +201,7 @@
 			<path>./../_assets/icons/savestate.svg</path>
 			<pos>0.765 0.9</pos>
 			<maxSize>0.02 0.03</maxSize>
-			<color>f1f1f31f</color>
+			<color>${textColor}1f</color>
 			<zIndex>150</zIndex>
 		</image> -->
 
@@ -210,7 +210,7 @@
 			<path>./../_assets/icons/kid.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>ffffff00</color>
+			<color>${textColor}00</color>
 			<zIndex>150</zIndex>
 		</image> -->
 
@@ -219,7 +219,7 @@
 			<path>./../_assets/icons/kid.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>f1f1f31f</color>
+			<color>${textColor}1f</color>
 			<zIndex>150</zIndex>
 		</image> -->
 		
@@ -228,7 +228,7 @@
 			<path>./../_assets/icons/hidden.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>f1f1f31f</color>
+			<color>${textColor}1f</color>
 			<zIndex>150</zIndex>
 		</image>		 -->
 

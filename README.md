@@ -16,7 +16,8 @@ The desired impact of the theme is to dress Emulation Station as a front-end for
 
 The projected use of this theme is that the user have a central 'all games'/'Mame'/ 'arcade' (as desired) gamelist and then a bunch of collections that break down the games into smaller lists (to aid with navigation and performance), mainly based around publishers and/or system boards.
 
-This theme is primarily designed to be used in grid layout and only with versions of Emulation Station that support theme <formatVersion> 7. (It has been developed on the Batocera port, but should work with others such as EmuELEC and RetroBat).
+This theme is primarily designed to be used in GRID layout and only with versions of Emulation Station that support theme <formatVersion> 7. (It has been developed on the Batocera port, but should, in theory, work with others such as EmuELEC and RetroBat I think). 
+There is a very unfinished BASIC view too.
 
 ## Supported Collections:
 - Astrocade
@@ -74,6 +75,7 @@ This theme is primarily designed to be used in grid layout and only with version
 ## Theme TODO
 - sounds
 - check for naming convention for systems
+- smarten up BASIC view
 - other stuff that i think of
 
 ## Copyrights

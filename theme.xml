@@ -9,8 +9,26 @@ originally based on:	"ckau-book" by Ckau
 <theme>
   <formatVersion>7</formatVersion>
 
+   <variables>
+      <textColor>f1f1f3</textColor>
+      <activeColor>f0f60b</activeColor>
+      <menuColor>ffffff</menuColor>
+      <bgColor>114373</bgColor>
+      <gradientStartColor>0099f0</gradientStartColor>
+      <gradientEndColor>002f89</gradientEndColor>
+      <seperatorColor>0f0f2d</seperatorColor>
+      <glowColor>f0f60baa</glowColor>
+      <systemInfoColor>f0f60baa</systemInfoColor>
+      <systemLogoColor>ffffff</systemLogoColor>
+      <systemBG>10667f</systemBG>
+      <scrollColor>333333</scrollColor>
+      <faveColor>FF0000B0</faveColor>
+      <ratingColor>ffcc00bb</ratingColor>
+   </variables>
+
   <include>./_assets/views/menu.xml</include>
   <include>./_assets/views/system.xml</include>
+  <include>./_assets/views/basic.xml</include>
   <include>./_assets/views/grid.xml</include>
 
   <view name="screen">
