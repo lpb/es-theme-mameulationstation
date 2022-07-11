@@ -35,7 +35,10 @@ There is a very unfinished BASIC view too.
 - DECO Cassette System
 - Exidy
 - Irem
+- Jaleco
+- Kaneko
 - Konami
+- Konami (g type)
 - Midway
 - Namco
 - Namco (na/nb type)
@@ -68,8 +71,6 @@ There is a very unfinished BASIC view too.
 - Zaccaria
   
 ## Collections still to add
-- Jaleco
-- Kaneko
 - Taito subsystems
 
 ## Theme TODO
