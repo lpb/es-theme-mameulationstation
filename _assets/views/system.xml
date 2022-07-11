@@ -7,22 +7,43 @@
 
     <carousel name="systemcarousel">
       <type>horizontal</type>
-      <pos>0 0.41</pos>
-      <size>1 0.3925</size>
+      <pos>0 0.2</pos>
+      <size>1 1</size>
       <origin>0 0</origin>
       <color>${systemBG}00</color>
-      <logoScale>1</logoScale>
-      <logoSize>0.25 0.155</logoSize>
+      <logoScale>1.1</logoScale>
+      <logoSize>0.20 0.18</logoSize>
       <logoPos>-1 0</logoPos>
+      <systemInfoDelay>500.0</systemInfoDelay>
     </carousel>
 
     <text name="systemInfo">
-      <pos>0 0.63</pos>
-      <size>1 0.25</size>
+      <pos>0 0.44</pos>
+      <size>1 0.2</size>
       <backgroundColor>00000000</backgroundColor>
-      <color>${systemLogoColor}ff</color>
+      <color>${systemInfoColor}</color>
       <fontPath>./_assets/fonts/SST.ttf</fontPath>
-      <fontSize>0.03</fontSize>
+      <fontSize>0.04</fontSize>
+    </text>
+
+    <text name="sys_subtitle" extra="true">
+      <pos>0.10 0.52</pos>
+      <size>0.8 0.3</size>
+      <color>${textColor}</color>
+      <fontSize>0.033</fontSize>
+      <alignment>center</alignment>
+      <forceUppercase>1</forceUppercase>
+      <fontPath>./_assets/fonts/SST.ttf</fontPath>
+    </text>
+
+    <text name="sys_description" extra="true">
+      <pos>0.255 0.6</pos>
+      <size>0.5 0.3</size>
+      <color>${textColor}</color>
+      <fontSize>0.025</fontSize>
+      <alignment>center</alignment>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./_assets/fonts/SST.ttf</fontPath>
     </text>
 
     <image name="background" extra="static">
