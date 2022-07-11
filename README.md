@@ -14,7 +14,7 @@ This theme was made by warorbs aka [lpb] (https://github.com/lpb/es-theme-mameul
 The desired impact of the theme is to dress Emulation Station as a front-end for the MAME emulator/framework (https://www.mamedev.org/), specifically the arcade systems.
 (An additional theme(s?) for the console/computer might come at a later date though.)
 
-The projected use of this theme is that the user have a central 'all games'/'Mame'/ 'arcade' (as desired) gamelist and then a bunch of collections that break down the games into smaller lists (to aid with navigation and performance), mainly based around publishers and/or system boards.
+The projected use of this theme is that the user have a central 'all games'/'Mame'/ 'arcade' (as desired) gamelist and then a bunch of collections that break down the games by some publishers into smaller lists (to aid with navigation and performance and is my personal preference), mainly based around publishers and/or system boards.
 
 This theme is primarily designed to be used in GRID layout and only with versions of Emulation Station that support theme <formatVersion> 7. (It has been developed on the Batocera port, but should, in theory, work with others such as EmuELEC and RetroBat I think). 
 There is a very unfinished BASIC view too.
