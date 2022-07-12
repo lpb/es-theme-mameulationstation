@@ -80,7 +80,7 @@ There is a very unfinished BASIC view too.
 - other stuff that i think of
 
 ## Copyrights
-- All logos, trademarks and photos are copyright of their respective owners.
+- The used logos and trademarks are copyright of their respective owners.
 - Each brand of hardware and software here represented as a tribute.
 
 ## License
