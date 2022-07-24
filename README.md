@@ -20,6 +20,8 @@ This theme is primarily designed to be used in GRID layout and only with version
 There is a very unfinished BASIC view too.
 
 ## Supported Collections:
+- Acclaim
+- Atlus
 - Astrocade
 - Atari
 - Atomiswave
@@ -31,6 +33,10 @@ There is a very unfinished BASIC view too.
 - Capcom CPS3
 - Capcom (ZN type)
 - Century
+- Cinematronics
+- Comad
+- Gaelco
+- Gottlieb
 - Data East
 - DECO Cassette System
 - Exidy
@@ -41,10 +47,7 @@ There is a very unfinished BASIC view too.
 - Konami (g type)
 - Midway
 - Namco
-- Namco (na/nb type)
-- Namco (s1/s2 type)
-- Namco (s11/s12 type)
-- Namco (s21/s22 type)
+- Namco (s types)
 - Naomi
 - NeoGeo
 - Nintendo
@@ -61,6 +64,7 @@ There is a very unfinished BASIC view too.
 - SNK NeoGeo
 - Stern
 - Taito
+- Taito X (types f,l,z)
 - Technos
 - Tecmo
 - Tehkan
@@ -69,11 +73,9 @@ There is a very unfinished BASIC view too.
 - Video System Co.
 - Williams
 - Zaccaria
-  
-## Collections still to add
-- Taito subsystems
 
 ## Theme TODO
+- update/generator logos for added & updated systems
 - sounds
 - check for naming convention for systems
 - smarten up BASIC view
