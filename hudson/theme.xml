@@ -5,8 +5,13 @@
 
     <view name="system">
         <image name="logo">
-        <path>./w_${system.theme}.svg</path>
+            <path>./w_${system.theme}.svg</path>
         </image>
+
+        <text name="sys_subtitle" extra="true">
+            <text>1982 to 1989.
+            </text>
+        </text>                
     </view>
 
     <view name="basic,grid">

@@ -5,14 +5,19 @@
 
     <view name="system">
         <image name="logo">
-        <path>./w_${system.theme}.svg</path>
+            <path>./w_${system.theme}.png</path>
         </image>
+
+        <text name="sys_subtitle" extra="true">
+            <text>Comad 1991 to 2002.
+            </text>
+        </text>           
     </view>
 
     <view name="basic,grid">
         <image name="logo">
             <pos>0.5 0.01</pos>
-            <path>./c_${system.theme}.svg</path>
+            <path>./c_${system.theme}.png</path>
             <maxSize>0.3 0.12</maxSize>
         </image>
     </view>

@@ -11,10 +11,11 @@
       <size>1 1</size>
       <origin>0 0</origin>
       <color>${systemBG}00</color>
-      <logoScale>1.1</logoScale>
-      <logoSize>0.20 0.18</logoSize>
+      <logoScale>1.01</logoScale>
+      <logoSize>0.20 0.20</logoSize>
       <logoPos>-1 0</logoPos>
       <systemInfoDelay>500.0</systemInfoDelay>
+      <defaultTransition>instant</defaultTransition>
     </carousel>
 
     <text name="systemInfo">

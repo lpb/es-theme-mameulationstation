@@ -7,6 +7,11 @@
         <image name="logo">
         <path>./w_${system.theme}.svg</path>
         </image>
+
+        <text name="sys_subtitle" extra="true">
+            <text>Gaelco 1991 to 1999.
+            </text>
+        </text>            
     </view>
 
     <view name="basic,grid">
