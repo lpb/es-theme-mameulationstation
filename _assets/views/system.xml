@@ -11,7 +11,7 @@
       <size>1 1</size>
       <origin>0 0</origin>
       <color>${systemBG}00</color>
-      <logoScale>1.01</logoScale>
+      <logoScale>1</logoScale>
       <logoSize>0.20 0.20</logoSize>
       <logoPos>-1 0</logoPos>
       <systemInfoDelay>500.0</systemInfoDelay>
@@ -53,7 +53,7 @@
       <origin>0 0</origin>
       <zIndex>0</zIndex>
       <color>${systemBG}</color>
-			<path>./../_assets/backgrounds/bg1.png</path>
+			<path>./../_assets/backgrounds/mame.png</path>
 		</image>
 
     <helpsystem name="help">

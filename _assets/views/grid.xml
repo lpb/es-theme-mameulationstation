@@ -10,7 +10,7 @@
 			<origin>0 0</origin>
 			<zIndex>0</zIndex>
 			<color>3d8896</color>
-			<path>./../_assets/backgrounds/bg1.png</path>
+			<path>./../_assets/backgrounds/mame.png</path>
 		</image>
 
 		<helpsystem name="help">
