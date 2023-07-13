@@ -53,8 +53,8 @@
       <origin>0 0</origin>
       <zIndex>0</zIndex>
       <color>${systemBG}</color>
-			<path>./../_assets/backgrounds/mame.png</path>
-		</image>
+      <path>./_assets/backgrounds/mame.png</path>
+    </image>
 
     <helpsystem name="help">
       <textColor>${systemLogoColor}90</textColor>
@@ -64,17 +64,21 @@
     </helpsystem>
 
     <image name="logo">
-      <path>./${system.theme}/w_${system.theme}.svg</path>
-      <reflexion>0.16 0.0</reflexion>
+      <path>./_assets/logos/${system.theme}_w.png</path>
+      <path>./_assets/logos/${system.theme}_w.svg</path>
+      <reflexion>0.1 0.0</reflexion>
       <reflexionOnFrame>true</reflexionOnFrame>
     </image>
+
+		<!-- Specific info for system -->
+		<include name="sys_subtitle">./_assets/extrainfo/${system.theme}.xml</include>		
 
     <text name="logoText">
       <text>${system.theme}</text>
       <fontPath>./_assets/fonts/miss.ttf</fontPath>
       <fontSize>0.092</fontSize>
       <color>${systemLogoColor}ff</color>
-      <reflexion>0.16 0.0</reflexion>
+      <reflexion>0.1 0.0</reflexion>
       <reflexionOnFrame>true</reflexionOnFrame>
     </text>
 

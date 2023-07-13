@@ -3,6 +3,13 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="grid">
+	
+		<image name="logo">
+		<path>./_assets/logos/${system.theme}_c.png</path>
+		<path>./_assets/logos/${system.theme}_c.svg</path>
+		<pos>0.5 0.012</pos>
+		<maxSize>0.3 0.12</maxSize>
+		</image>
 
 		<image name="background" extra="true">
 			<size>1 1</size>
@@ -10,14 +17,14 @@
 			<origin>0 0</origin>
 			<zIndex>0</zIndex>
 			<color>3d8896</color>
-			<path>./../_assets/backgrounds/mame.png</path>
+			<path>./_assets/backgrounds/mame.png</path>
 		</image>
 
 		<helpsystem name="help">
 			<textColor>${textColor}90</textColor>
 			<iconColor>${textColor}90</iconColor>
 			<fontSize>0.025</fontSize>
-			<fontPath>./../_assets/fonts/ubuntu_condensed.ttf</fontPath>
+			<fontPath>./_assets/fonts/ubuntu_condensed.ttf</fontPath>
 		</helpsystem>
 
 		<imagegrid name="gamegrid">
@@ -29,7 +36,7 @@
 			<autoLayoutSelectedZoom>1.06</autoLayoutSelectedZoom>
 			<centerSelection>false</centerSelection>
 			<animateSelection>false</animateSelection>
-			<gameImage>./../_assets/icons/no_boxart.svg</gameImage>
+			<gameImage>./_assets/icons/no_boxart.svg</gameImage>
 			<scrollbarColor>${scrollColor}ff</scrollbarColor>
 			<scrollbarCorner>0.49</scrollbarCorner>
 			<scrollbarSize>0.005</scrollbarSize>
@@ -46,10 +53,11 @@
 		<gridtile name="selected">
 			<backgroundColor>${textColor}00</backgroundColor>
 			<imageColor>${textColor}ff</imageColor>
+			<padding>0</padding>
 		</gridtile>
 
 		<image name="gridtile.favorite">
-			<path>./../_assets/icons/favorite.svg</path>
+			<path>./_assets/icons/favorite.svg</path>
 			<pos>0.94 0.05</pos>
 			<maxSize>0.15 0.15</maxSize>
 			<origin>0.5 0.5</origin>
@@ -58,7 +66,7 @@
 		</image>
 
 		<ninepatch name="gridtile.background:selected">
-			<path>./../_assets/icons/gridframe.png</path>
+			<path>./_assets/icons/gridframe.png</path>
 			<cornerSize>36 36</cornerSize>
 			<padding>-18 -18</padding>
 			<color>${baseColor}</color>
@@ -67,7 +75,7 @@
 		</ninepatch>
 
 		<image name="gamelistBackground" extra="true">
-			<path>./../_assets/icons/space.png</path>
+			<path>./_assets/icons/space.png</path>
 			<color>141414aa</color>
 			<origin>0 0</origin>
 			<pos>0.6 0.14</pos>
@@ -85,7 +93,7 @@
 			<size>0.30 0.05</size>
 			<color>${textColor}F0</color>
 			<fontSize>0.032</fontSize>
-			<fontPath>./../_assets/fonts/SST.ttf</fontPath>
+			<fontPath>./_assets/fonts/SST.ttf</fontPath>
 			<alignment>center</alignment>
 			<!-- <glowColor>${glowColor}</glowColor>
 			<glowSize>2</glowSize> -->
@@ -116,7 +124,7 @@
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<glowSize>3</glowSize>
-			<fontPath>./../_assets/fonts/fonts/ubuntu_condensed.ttf</fontPath>
+			<fontPath>./_assets/fonts/fonts/ubuntu_condensed.ttf</fontPath>
 		</text>
 
 		<text name="md_description">
@@ -124,7 +132,7 @@
 			<size>0.34 0.2</size>
 			<color>${textColor}ff</color>
 			<fontSize>0.025</fontSize>
-			<fontPath>./../_assets/fonts/ubuntu_condensed.ttf</fontPath>
+			<fontPath>./_assets/fonts/ubuntu_condensed.ttf</fontPath>
 		</text>
 
 		<datetime name="md_releasedate">
@@ -134,7 +142,7 @@
 			<rotation>0</rotation>
 			<alignment>left</alignment>
 			<format>%Y</format>
-			<fontPath>./../_assets/fonts/ubuntu_condensed.ttf</fontPath>
+			<fontPath>./_assets/fonts/ubuntu_condensed.ttf</fontPath>
 			<fontSize>0.025</fontSize>
 			<color>${textColor}bb</color>
 			<zIndex>180</zIndex>
@@ -155,14 +163,14 @@
 			<origin>0.5 0</origin>
 			<horizontalAlignment>right</horizontalAlignment>
 			<unfilledColor>${textColor}bb</unfilledColor>
-			<unfilledPath>./../_assets/icons/star_filled.svg</unfilledPath>
+			<unfilledPath>./_assets/icons/star_filled.svg</unfilledPath>
 		</rating>
 
 		<text name="md_players">
 			<pos>0.808 0.899</pos>
 			<size>0.03 0.03</size>
 			<origin>0.5 0.5</origin>
-			<fontPath>./../_assets/fonts/players.ttf</fontPath>
+			<fontPath>./_assets/fonts/players.ttf</fontPath>
 			<text>1</text>
 			<alignment>center</alignment>
 			<fontSize>0.034</fontSize>
@@ -171,7 +179,7 @@
 
 		<image name="md_manual">
 			<pos>0.785 0.90</pos>
-			<path>./../_assets/icons/manual.svg</path>
+			<path>./_assets/icons/manual.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<origin>0.5 0.5</origin>
 			<color>${textColor}ff</color>
@@ -180,7 +188,7 @@
 
 		<image name="md_nomanual">
 			<pos>0.785 0.90</pos>
-			<path>./../_assets/icons/manual.svg</path>
+			<path>./_assets/icons/manual.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<origin>0.5 0.5</origin>
 			<color>${textColor}1f</color>
@@ -189,7 +197,7 @@
 
 		<!-- <image name="md_savestate">
 			<origin>0.5 0.5</origin>
-			<path>./../_assets/icons/savestate.svg</path>
+			<path>./_assets/icons/savestate.svg</path>
 			<pos>0.765 0.90</pos>
 			<maxSize>0.02 0.03</maxSize>
 			<color>${textColor}bb</color>
@@ -198,7 +206,7 @@
 
 		<image name="md_nosavestate">
 			<origin>0.5 0.5</origin>
-			<path>./../_assets/icons/savestate.svg</path>
+			<path>./_assets/icons/savestate.svg</path>
 			<pos>0.765 0.9</pos>
 			<maxSize>0.02 0.03</maxSize>
 			<color>${textColor}1f</color>
@@ -207,7 +215,7 @@
 
 		<!-- <image name="md_kidgame">
 			<pos>0.722 0.9</pos>
-			<path>./../_assets/icons/kid.svg</path>
+			<path>./_assets/icons/kid.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<origin>0.5 0.5</origin>
 			<color>${textColor}00</color>
@@ -216,7 +224,7 @@
 
 		<!-- <image name="md_notkidgame">
 			<pos>0.722 0.9</pos>
-			<path>./../_assets/icons/kid.svg</path>
+			<path>./_assets/icons/kid.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<origin>0.5 0.5</origin>
 			<color>${textColor}1f</color>
@@ -225,7 +233,7 @@
 		
 		<!-- <image name="md_hidden">
 			<pos>0.7425 0.9</pos>
-			<path>./../_assets/icons/hidden.svg</path>
+			<path>./_assets/icons/hidden.svg</path>
 			<maxSize>0.02 0.03</maxSize>
 			<origin>0.5 0.5</origin>
 			<color>${textColor}1f</color>
