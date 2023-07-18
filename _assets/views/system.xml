@@ -64,7 +64,6 @@
     </helpsystem>
 
     <image name="logo">
-      <path>./_assets/logos/${system.theme}_w.png</path>
       <path>./_assets/logos/${system.theme}_w.svg</path>
       <reflexion>0.1 0.0</reflexion>
       <reflexionOnFrame>true</reflexionOnFrame>

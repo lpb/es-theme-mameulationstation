@@ -11,14 +11,14 @@
 			<origin>0 0</origin>
 			<zIndex>0</zIndex>
          <color>${systemBG}</color>
-			<path>./../_assets/backgrounds/mame.png</path>
+			<path>./../backgrounds/mame.png</path>
 		</image> 
 
 		<helpsystem name="help">
 			<textColor>${textColor}90</textColor>
 			<iconColor>${textColor}90</iconColor>
 			<fontSize>0.025</fontSize>
-			<fontPath>./../_assets/fonts/ubuntu_condensed.ttf</fontPath>
+			<fontPath>./../fonts/ubuntu_condensed.ttf</fontPath>
 		</helpsystem>
 
 		<textlist name="gamelist">
@@ -26,7 +26,7 @@
          <selectedColor>${activeColor}</selectedColor>
          <primaryColor>${textColor}</primaryColor>
          <secondaryColor>${menuColor}</secondaryColor>
-         <fontPath>./../_assets/fonts/SST.ttf</fontPath>
+         <fontPath>./../fonts/SST.ttf</fontPath>
          <fontSize>0.035</fontSize>
          <pos>0.160 0.144</pos>
          <size>0.684 0.725</size>

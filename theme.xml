@@ -39,7 +39,7 @@ originally based on:	"ckau-book" by Ckau
       <fontSize>0.025</fontSize>
       <color>f0f60baa</color>
       <verticalAlignment>center</verticalAlignment>
-      <fontPath>./assets/SST.ttf</fontPath>
+      <fontPath>./_assets/fonts/SST.ttf</fontPath>
       <fontSize>0.04</fontSize>
     </text>
 
